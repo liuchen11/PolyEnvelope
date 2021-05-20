@@ -40,3 +40,17 @@ python run/certify_cnn.py --dataset mnist --subset test --batch_size 100 --in_si
 python run/search_eps_cnn.py --dataset mnist --subset test --in_size 28 --in_channel 1 --conv_kernels 4,4 --conv_strides 2,2 --conv_channels 16,32 --conv_pads 1,1 --hidden_dims 100 --out_dim 10 --model2load $FOLDER$/$NAME$.ckpt --out_file $OUT_FILE$ --eps_range min=0.,max=0.4 --precision 0.0001 --norm -1 --bound_est bound_quad --pixel_range 0,1 --ceritfy_mode $crown/per$ --gpu $GPU id$
 ```
 
+## Checkpoints
+
+Models by all method demonstrated in the tables in the paper are provided under the folder `ckpts/`, including both $l_2$ and $l_\infty$ cases.
+
+## Citation
+
+```
+@article{liu2019training,
+  title={Training Provably Robust Models by Polyhedral Envelope Regularization},
+  author={Liu, Chen and Salzmann, Mathieu and S{\"u}sstrunk, Sabine},
+  journal={arXiv preprint arXiv:1912.04792},
+  year={2019}
+}
+```
