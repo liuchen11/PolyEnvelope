@@ -47,10 +47,10 @@ Models by all method demonstrated in the tables in the paper are provided under 
 ## Citation
 
 ```
-@article{liu2019training,
+@article{liu2021training,
   title={Training Provably Robust Models by Polyhedral Envelope Regularization},
   author={Liu, Chen and Salzmann, Mathieu and S{\"u}sstrunk, Sabine},
-  journal={arXiv preprint arXiv:1912.04792},
-  year={2019}
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  year={2021}
 }
 ```
